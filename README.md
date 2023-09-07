@@ -1,4 +1,4 @@
-# Erroneous-Vector-Assessment [Video Demo,](https://www.youtube.com/watch?v=loN-Y3DC71I&feature=youtu.be)[Project Report](http://www.lyuxuan.com/eva_paper.pdf)
+# Erroneous-Vector-Assessment [Video Demo, ](https://www.youtube.com/watch?v=loN-Y3DC71I&feature=youtu.be)[Project Report](http://www.lyuxuan.com/eva_paper.pdf)
 EVA pairs a phone camera with IMU to provide real time, high fidelity feedback to athletes performing potentially injury inducing repetitive actions. At the moment, our team is targeting weightlifting, specifically the incline bench press motion.
 
 Currently:
