@@ -1,17 +1,23 @@
 # Erroneous-Vector-Assessment: [Video Demo, ](https://www.youtube.com/watch?v=loN-Y3DC71I&feature=youtu.be)[Project Report](http://www.lyuxuan.com/eva_paper.pdf)
-EVA pairs a phone camera with IMU to provide real time, high fidelity feedback to athletes performing potentially injury inducing repetitive actions. At the moment, our team is targeting weightlifting, specifically the incline bench press motion.
+EVA pairs a phone camera with IMU to provide real-time, high-fidelity feedback to athletes performing potentially injury-inducing repetitive actions. At the moment, our team is targeting weightlifting, specifically the incline bench press motion.
 
 Currently:
-With Python 3.8 installed, run python3.8 pose_detection in terminal. Consider doing pip3 install on any packages which are not installed.
+With Python 3.8 installed, run python3.8 pose_detection in terminal. Consider doing pip3 install on any packages that are not installed.
 
 ***
 
 # Usage
- Note, have the android code (EVA/main folder) installed and ready to execute on an android emulator or android phone. Laslty, change any noted hardcoded addresses within wifi_server.py. To run, execute wifi_server.py and press the respective start and stop connection buttons on the app interface to start or end streaming.
+1. Install the Android code (EVA/main folder) on an Android emulator or Android phone. 
+2. Change any noted hardcoded addresses within wifi_server.py and MainActivity.java to IP addresses of testing devices (Android Phone & Laptop).
+3. Execute wifi_server.py on a laptop within the same WIFI network.
+4. Start the Andoird App and press the respective start and stop connection buttons on the app interface to start or end streaming.
+5. Put the phone directly in front of the squat rack facing your front.
+6. Begin Exercising.
+
 
 # Analyzer
 
-The Analyzer is a Python class (within utils.py) which contains main functions for analysis, namely update, error_check, and plot_segmentation.
+The Analyzer is a Python class (within utils.py) that contains the main functions for analysis, namely update, error_check, and plot_segmentation.
 
 ## update(self, image, imu_readings)
 
