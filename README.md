@@ -6,7 +6,7 @@ With Python 3.8 installed, run python3.8 pose_detection in terminal. Consider do
 
 ***
 
-# DEMO
+# Usage
  Note, have the android code (EVA/main folder) installed and ready to execute on an android emulator or android phone. Laslty, change any noted hardcoded addresses within wifi_server.py. To run, execute wifi_server.py and press the respective start and stop connection buttons on the app interface to start or end streaming.
 
 # Analyzer
